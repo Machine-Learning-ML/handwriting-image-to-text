@@ -1,0 +1,17 @@
+# Install: pip install -r requirements.txt
+# Tesseract OCR must be installed on the system for pytesseract (see README).
+
+# Ollama vision client (image-text.py)
+requests>=2.28.0
+Pillow>=10.0.0
+
+# Notebook: OpenCV + Tesseract bindings + plotting
+opencv-python-headless>=4.8.0
+pytesseract>=0.3.10
+matplotlib>=3.8.0
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# TrOCR handwritten line (handwrite.py) — pulls torch + model weights
+torch>=2.0.0
+transformers>=4.36.0

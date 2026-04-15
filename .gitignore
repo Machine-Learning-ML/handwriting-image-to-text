@@ -1,0 +1,43 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ML / Hugging Face caches (large; download again locally)
+.cache/
+models/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# Local scratch
+output/
+runs/
+wandb/
+
+# pytest / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
